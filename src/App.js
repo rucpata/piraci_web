@@ -3,6 +3,8 @@ import React from 'react';
 
 import Intro from './containers/Intro/Intro';
 import InfoList from './containers/InfoList/InfoList';
+import Form from './containers/Form/Form';
+import Footer from './containers/Footer/Footer';
 
 const App = () => {
   return (
@@ -17,7 +19,8 @@ const App = () => {
       </header>     
       <Intro/>
       <InfoList/>
-    
+      <Form/>
+      <Footer/>
 
     </>
   );
