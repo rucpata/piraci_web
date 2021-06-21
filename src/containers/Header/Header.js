@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Heder.css';
-import logo from '../../img/grafiki/logo_white.png'
-import tło from '../../img/background/bg_czaszka.png'
+// import logo from '../../images/grafiki/logo_white.png'
+// import tło from '../../img/background/bg_czaszka.png'
 
 
 const Header = () => {
@@ -12,13 +12,13 @@ const Header = () => {
             <nav className="navbar">
                 <div className='navbnar-container'>
                     <Link to='/' className='navbar-logo'>
-                        <img src={logo} alt="logo1" />
+                        <img src='/images/grafiki/logo_white.png' alt="logo1" />
                     </Link>
                     <Link to='order' className='navbar-order'>
                         Zamów
                     </Link>
                 </div>
-                <img src={tło} alt='tło' className='navbar-background'/>
+                <img src='/images/background/bg_czaszka.jpg' alt='tło' className='navbar-background'/>
             </nav>
         </>   
     )

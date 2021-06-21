@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Marck Script', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #101417;;
+  color: #FFFAF3;
+  overflow-x: hidden;
+}
+
+
 
 .App {
   font-family: 'Niconne', cursive;
   background-color: #101417;
-  font-size: 25px;
+}
+
+@media (max-width: 768px) { 
+  body{
+    font-size: 14px;
+  }
+  
+
 }
 

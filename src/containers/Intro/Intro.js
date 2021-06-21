@@ -9,7 +9,7 @@ const Intro = ({intro}) => {
         <div 
             className='introne' 
             style={{
-                backgroundImage: "url('../../img/background/bg_mapa2.jpg')",
+                backgroundImage: `url(${intro.picture})`,
             }}>
             <h2>{intro.text}</h2>
             <p>{intro.extra}</p>
