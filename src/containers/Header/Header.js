@@ -7,7 +7,6 @@ import tło from '../../img/background/bg_czaszka.png'
 
 
 const Header = () => {
-
     return(
         <>
             <nav className="navbar">
@@ -21,9 +20,7 @@ const Header = () => {
                 </div>
                 <img src={tło} alt='tło' className='navbar-background'/>
             </nav>
-            {/* <img src={tło} alt="" className='back'/> */}
-        </>
-        
+        </>   
     )
 }
 

@@ -8,8 +8,11 @@ import InfoList from './containers/InfoList/InfoList';
 import Form from './containers/Form/Form';
 import Footer from './containers/Footer/Footer';
 
+import {intro} from './data';
 
 const App = () => {
+
+  const intros = intro
 
   return (
     <>
@@ -20,10 +23,16 @@ const App = () => {
         </Switch>
       </Router>
          
-      <Intro/>
-      <InfoList/>
-      <Form/>
-      <Footer/>
+      <Intro intro={intros.find(intro => intro.id === 1)}/>
+      <br/><br/><br/>
+      {/* <InfoList/> */}
+      <Intro intro={intros.find(intro => intro.id === 2)}/>
+      <br/><br/><br/>
+
+      <Intro intro={intros.find(intro => intro.id === 3)}/>
+
+      {/* <Form/>
+      <Footer/> */}
 
     </>
   );

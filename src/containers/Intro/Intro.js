@@ -1,11 +1,18 @@
 import React from 'react';
+import './Intro.css';
+// import back from '../../img/background/bg_mapa2.jpg'
 
-const Intro = () => {
+const Intro = ({intro}) => {
+    
 
     return(
-        <div>
-            <h2>Tytuł</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, dicta deleniti esse sunt placeat labore voluptates doloribus modi unde obcaecati aliquid corporis cum. A suscipit nostrum magnam? Voluptatibus, odio. Quod.</p>
+        <div 
+            className='introne' 
+            style={{
+                backgroundImage: "url('../../img/background/bg_mapa2.jpg')",
+            }}>
+            <h2>{intro.text}</h2>
+            <p>{intro.extra}</p>
         </div>
     )
 }

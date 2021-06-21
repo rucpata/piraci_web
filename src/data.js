@@ -1,14 +1,14 @@
-export const icons = [
+export const intro = [
     {
       id: 1,
       text: 'Zamów w dowolne miejsce',
-      picture: './img/background/bg_mapa2.jpg',
+      picture: '../../img/background/bg_mapa2.jpg',
       extra: ''
     },
     {
       id: 2,
       text: 'Odnajdź skarb w 60min! Dedykowane dla zespołu 4-10 osobowego',
-      picture: './img/background/bg_mapa2.jpg',
+      picture: './img/background/bg_mapa1.jpg',
       extra: '* Istnieje możliwość przygotowania wersji do 15 minut  dla 2-4 os.'
     },
     {
@@ -17,5 +17,4 @@ export const icons = [
       picture: './img/background/bg_skrzynia.jpg',
       extra: ''
     },
-    
   ]
