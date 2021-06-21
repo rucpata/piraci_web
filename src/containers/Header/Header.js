@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './Heder.css';
 import logo from '../../img/grafiki/logo_white.png'
-// import tło from '../../img/background/bg_czaszka.jpg'
+import tło from '../../img/background/bg_czaszka.jpg'
 
 
 const Header = () => {
@@ -19,8 +19,9 @@ const Header = () => {
                         Zamów
                     </Link>
                 </div>
-                {/* <img src={tło} alt="" /> */}
+                <img src={tło} alt='tło' className='navbar-background'/>
             </nav>
+            {/* <img src={tło} alt="" className='back'/> */}
         </>
         
     )

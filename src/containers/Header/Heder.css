@@ -1,11 +1,11 @@
 .navbar{
-    height: 90vh;
-    background-image: url('../../img/background/bg_czaszka.jpg');
-    background-size: cover;
-    background-position:center;
+    height: 90%;
+    background-color: #101417;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
 }
-
-
 
 .navbnar-container{
     display: flex;
@@ -14,16 +14,42 @@
     padding-right: 4%;
     padding-top: 20px;
     align-items: center;
-    z-index: 3;   
 }
 
 .navbar-logo img{
-    height: 30px;
-    width: auto;
+    height: 40px;
+    width: auto;  
 }
 
 .navbar-order{
-    color: gold;
-    text-decoration: none;
-    text-transform: uppercase;
+    color: #FFFAF3;
+    background-color: #FFA619;
+    border-radius:28px;
+	border:1px solid #FFA619;
+	cursor:pointer;
+    font-family: 'Marck Script', cursive;
+    font-weight: bold;
+	font-size:16px;
+	padding:10px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e4910a;
+}
+
+.navbar-background{
+    height: auto;
+    width: 70%;    
+    opacity: 0;
+    padding-bottom: 20px;
+    animation-name: back;
+    animation-duration: 10s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes back{
+   from{
+       opacity: 0;
+   }
+   to {
+       opacity: 1;
+   }
 }
