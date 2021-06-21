@@ -1,0 +1,13 @@
+.story{
+    margin: 30px 10px;
+}
+
+.story h2, span{
+    color: #FFA619;
+}
+
+.story p{
+    text-align: center;
+}
+
+

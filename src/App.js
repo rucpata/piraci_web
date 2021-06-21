@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from './containers/Header/Header';
 import Intro from './containers/Intro/Intro';
+import Story from './containers/Story/Story';
 import InfoList from './containers/InfoList/InfoList';
 import Form from './containers/Form/Form';
 import Footer from './containers/Footer/Footer';
@@ -24,7 +25,7 @@ const App = () => {
       </Router>
          
       <Intro intro={intros.find(intro => intro.id === 1)}/>
-      <br/><br/><br/>
+      <Story/>
       {/* <InfoList/> */}
       <Intro intro={intros.find(intro => intro.id === 2)}/>
       <br/><br/><br/>

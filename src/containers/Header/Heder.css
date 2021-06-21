@@ -1,5 +1,6 @@
 .navbar{
-    height: 90%;
+    height: auto;
+    max-height: 90vh;
     background-color: #101417;
     justify-content: center;
     align-items: center;
@@ -36,7 +37,8 @@
 }
 
 .navbar-background{
-    max-width: 40%;
+    width: 80%;
+    max-height: auto;
     opacity: 0;
 
     padding-bottom: 20px;
