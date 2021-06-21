@@ -36,9 +36,9 @@
 }
 
 .navbar-background{
-    height: auto;
-    width: 70%;    
+    max-width: 40%;
     opacity: 0;
+
     padding-bottom: 20px;
     animation-name: back;
     animation-duration: 10s;

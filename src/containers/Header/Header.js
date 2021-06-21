@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './Heder.css';
 import logo from '../../img/grafiki/logo_white.png'
-import tło from '../../img/background/bg_czaszka.jpg'
+import tło from '../../img/background/bg_czaszka.png'
 
 
 const Header = () => {
