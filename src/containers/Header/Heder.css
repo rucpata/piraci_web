@@ -1,0 +1,29 @@
+.navbar{
+    height: 90vh;
+    background-image: url('../../img/background/bg_czaszka.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+
+
+.navbnar-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 20px;
+    align-items: center;
+    z-index: 3;   
+}
+
+.navbar-logo img{
+    height: 30px;
+    width: auto;
+}
+
+.navbar-order{
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
