@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './containers/Header/Header';
 import Intro from './containers/Intro/Intro';
 import Story from './containers/Story/Story';
-import InfoList from './containers/InfoList/InfoList';
-import Form from './containers/Form/Form';
-import Footer from './containers/Footer/Footer';
+// import InfoList from './containers/InfoList/InfoList';
+// import Form from './containers/Form/Form';
+// import Footer from './containers/Footer/Footer';
 
 import {intro} from './data';
 
