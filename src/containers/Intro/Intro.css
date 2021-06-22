@@ -1,11 +1,12 @@
 .introne{
     width: auto;
-    height: 40vh;  
+    max-height: 250px;
+    height: 30vh;  
     display: flex;
     flex-direction: column;
     background-size: cover;
     background-position: center; 
-    z-index: 0;   
+    z-index: 1;   
 }
 
 h2{
@@ -16,9 +17,11 @@ h2{
     
 }
 
-p{
+p{  
     text-align: right; 
     padding-bottom: 10px; 
     font-size: 1em;
     z-index: 2;
+    padding-right: 10px;
+    
 }

@@ -6,6 +6,7 @@
     align-items: center;
     display: block;
     text-align: center;
+    z-index: 0;
 }
 
 .navbnar-container{
@@ -37,8 +38,9 @@
 }
 
 .navbar-background{
-    width: 80%;
-    max-height: auto;
+    max-width: 100%;
+    width: auto;
+    max-height: 80vh;
     opacity: 0;
 
     padding-bottom: 20px;
