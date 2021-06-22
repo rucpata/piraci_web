@@ -23,27 +23,27 @@ export const intro = [
     {
       id: 1,
       text: 'wypełnij formularz rezerwacyjny',
-      picture: '/images/grfika/ico_forms.png'
+      picture: '/images/grafiki/ico_forms.png'
     },
     {
       id: 2,
       text: 'potwierdzenie daty i warunków',
-      picture: '/images/grfika/calendar.png'
+      picture: '/images/grafiki/ico_calendar.png'
     },
     {
       id: 3,
       text: 'dostarczenie "Pirackiej Przygody"',
-      picture: '/images/grfika/ico_car.png'
+      picture: '/images/grafiki/ico_car.png'
     },
     {
       id: 4,
       text: 'poszukiwania',
-      picture: '/images/grfika/gra.png'
+      picture: '/images/grafiki/ico_gra.png'
     },
     {
       id: 5,
       text: 'odnalezienie skarbu',
-      picture: '/images/grfika/skarb2.png'
+      picture: '/images/grafiki/ico_skarb2.png'
     },
   ]
   

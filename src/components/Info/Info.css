@@ -1,0 +1,15 @@
+.info{  
+    width: 100vw;
+    margin: 5px 5px;
+}
+
+.info img{
+    width: auto;
+    height: auto;
+    max-width: 100px;
+}
+
+.info p{
+    max-width: 100px;
+    margin: auto;
+}
