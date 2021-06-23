@@ -1,6 +1,8 @@
 footer{
     text-align: center;
     font-size: 18px;
+    min-height: 30px;
+    padding: 10px;
 }
 
 footer a {

@@ -9,7 +9,7 @@
     
 }
 
-h2{
+.introne h2{
     width: 60%;
     text-align: center;
     font-size: 2.2em;   
@@ -17,7 +17,7 @@ h2{
     z-index: 2;
 }
 
-p{  
+.introne p{  
     text-align: right; 
     padding-bottom: 10px; 
     font-size: 1em;
