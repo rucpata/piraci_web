@@ -47,4 +47,30 @@ export const intro = [
     },
   ]
   
-  
+  export const slidertwo = [
+    {
+      id: 1,
+      text: 'praca zespołowa',
+      picture: '/images/grafiki/ico_teamwork.png'
+    },
+    {
+      id: 2,
+      text: 'kreatywność',
+      picture: '/images/grafiki/ico_idea.png'
+    },
+    {
+      id: 3,
+      text: 'spostrzegawczość',
+      picture: '/images/grafiki/ico_spost.png'
+    },
+    {
+      id: 4,
+      text: 'praca pod presją czasu',
+      picture: '/images/grafiki/ico_clock.png'
+    },
+    {
+      id: 5,
+      text: 'łączenie faktów',
+      picture: '/images/grafiki/ico_sing.png'
+    },
+  ]
