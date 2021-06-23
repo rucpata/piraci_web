@@ -6,7 +6,7 @@ import Header from './containers/Header/Header';
 import Intro from './containers/Intro/Intro';
 import Story from './containers/Story/Story';
 import InfoList from './containers/InfoList/InfoList';
-// import Form from './containers/Form/Form';
+import Form from './containers/Form/Form';
 import Footer from './containers/Footer/Footer';
 
 import {intro, sliderone, slidertwo} from './data';
@@ -34,7 +34,7 @@ const App = () => {
     
       <Intro intro={intros.find(intro => intro.id === 3)}/>
       <InfoList info={info2} title={false}/>
-      {/* <Form/> */}
+      <Form/>
       <Footer/> 
 
     </>
