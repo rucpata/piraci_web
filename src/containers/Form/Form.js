@@ -1,29 +1,63 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Form.css';
 
 const Form = () => {
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [date, setDate] = useState();
+    const [city, setCity] = useState('');
+
+    const handleSubmit = e => {
+        e.preventDefault()
+        setName('')
+        setEmail('')
+        setDate('')
+        setCity('')
+    }
+   
 
     return(
         <div className='orderForm'>
             <h2>Zamów</h2>
             <form>
-                <label htmlFor=""> Twoje imię
-                    <input type="text"/>
+                <label> 
+                    Twoje imię
+                    <input 
+                        type="text"
+                        value={name}
+                        onChange={e=>setName(e.target.value)}
+                    />
                 </label>
 
-                <label htmlFor=""> Twoj e-mail
-                    <input type="email"/>
+                <label> 
+                    Twój e-mail
+                    <input 
+                        type="email"
+                        value={email}
+                        onChange={e=>setEmail(e.target.value)}
+                    />
                 </label>
 
-                <label htmlFor=""> Preferowana data
-                    <input type="date"/>
+                <label> 
+                    Preferowana data
+                    <input 
+                        type="date"
+                        value={date}
+                        onChange={e=>setDate(e.target.value)}
+                    />
                 </label>
 
-                <label htmlFor=""> Miasto
-                    <input type="text"/>
+                <label> 
+                    Miasto
+                    <input 
+                        type="text"
+                        value={city}
+                        onChange={e=>setCity(e.target.value)}
+                    />
                 </label>
                 
-                <input type="submit" />
+                <input type="submit" onClick={handleSubmit}/>
 
             </form>
         </div>
