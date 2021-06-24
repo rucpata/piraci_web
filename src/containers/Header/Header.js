@@ -25,14 +25,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-
-<header>
-        <nav>
-          <p>Nawigacja</p>
-          <img src="" alt="logo" />
-          <button></button>
-        </nav>
-        <img src="../img/background/bg_czaszka.jpg" alt="" />
-      </header> 

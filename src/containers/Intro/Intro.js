@@ -1,6 +1,5 @@
 import React from 'react';
 import './Intro.css';
-// import back from '../../img/background/bg_mapa2.jpg'
 
 const Intro = ({intro}) => {
     

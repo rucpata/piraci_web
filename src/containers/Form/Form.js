@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Form.css';
+// import medalion from '../../../public/images/background/bg_medalion.jpg'
 
 const Form = () => {
 
@@ -18,7 +19,7 @@ const Form = () => {
    
 
     return(
-        <div className='orderForm'>
+        <div className='orderForm' >
             <h2>Zamów</h2>
             <form>
                 <label> 
@@ -60,6 +61,7 @@ const Form = () => {
                 <input type="submit" onClick={handleSubmit}/>
 
             </form>
+            {/* <img src='/images/background/bg_medalion.jpg' alt='tło' className="formback"/> */}
         </div>
         
     )
