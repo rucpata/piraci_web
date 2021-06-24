@@ -5,7 +5,7 @@ const Footer = () => {
 
     return(
         <footer>
-            <p>created and code by <a href="https://github.com/rucpata" target="_blank">rucpta</a></p>
+            <p>created and code by <a href="https://github.com/rucpata">rucpta</a></p>
         </footer>
     )
 }
