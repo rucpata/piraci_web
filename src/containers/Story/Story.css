@@ -1,5 +1,7 @@
 .story{
     margin: 30px 10px;
+    width: 80vw;
+    margin: auto;
 }
 
 .story h2, span{

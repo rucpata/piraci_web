@@ -21,13 +21,14 @@ const Form = () => {
     return(
         <div className='orderForm' >
             <h2>Zamów</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label> 
                     Twoje imię
                     <input 
                         type="text"
                         value={name}
                         onChange={e=>setName(e.target.value)}
+                        required
                     />
                 </label>
 
@@ -37,6 +38,7 @@ const Form = () => {
                         type="email"
                         value={email}
                         onChange={e=>setEmail(e.target.value)}
+                        required
                     />
                 </label>
 
@@ -46,6 +48,7 @@ const Form = () => {
                         type="date"
                         value={date}
                         onChange={e=>setDate(e.target.value)}
+                        required
                     />
                 </label>
 
@@ -55,10 +58,11 @@ const Form = () => {
                         type="text"
                         value={city}
                         onChange={e=>setCity(e.target.value)}
+                        required
                     />
                 </label>
+                <button type='submit'>Wyślij</button>
                 
-                <input type="submit" onClick={handleSubmit}/>
 
             </form>
             {/* <img src='/images/background/bg_medalion.jpg' alt='tło' className="formback"/> */}
