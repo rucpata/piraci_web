@@ -6,10 +6,8 @@
     flex-wrap: wrap;
     justify-content: center;
     /* align-items: center; */
-    align-content: space-around;
-    text-align: center;
-    margin-bottom: 10%;
-    
+    align-content: space-between;
+    text-align: center; 
 }
 
 .navbnar-container{
@@ -29,6 +27,7 @@
 
 .navbar-order{
     color: #FFFAF3;
+    font-family: 'Marck Script', cursive;
     background-color: #FFA619;
     border-radius:28px;
 	border:1px solid #FFA619;
@@ -37,7 +36,12 @@
 	font-size:16px;
 	padding:10px 28px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #e4910a;
+}
+
+.navbar-order:hover{
+    
+    background-color: #101417;
+    border:1px solid #101417;
 }
 
 .navbar-background{
@@ -45,17 +49,21 @@
     width: auto;
     max-height: 80vh;
     opacity: 0;
-    margin: auto;
+    margin-bottom: 25%;
     animation-name: back;
-    animation-duration: 10s;
-    animation-delay: 1.5s;
+    animation-duration: 6s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
+
 @keyframes back{
-   from{
+   0%{
        opacity: 0;
    }
-   to {
+   50% {
+       opacity: 0.5;
+   }
+   100% {
        opacity: 1;
    }
 }
