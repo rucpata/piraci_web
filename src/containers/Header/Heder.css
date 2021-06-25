@@ -1,26 +1,28 @@
 .navbar{
-    height: auto;
-    max-height: 90vh;
+    height: 100vh;
+    max-height: 100vh;
     background-color: #101417;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    display: block;
+    /* align-items: center; */
+    align-content: space-around;
     text-align: center;
-    z-index: 0;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 10%;
+    
 }
 
 .navbnar-container{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 20px;
-    align-items: center;
+
 }
 
-.navbar-logo img{
+.navbar-logo {
     height: 40px;
     width: auto;  
 }
@@ -43,8 +45,7 @@
     width: auto;
     max-height: 80vh;
     opacity: 0;
-
-    padding-bottom: 20px;
+    margin: auto;
     animation-name: back;
     animation-duration: 10s;
     animation-delay: 1.5s;

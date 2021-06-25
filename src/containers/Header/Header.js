@@ -10,15 +10,14 @@ const Header = () => {
     return(
         <>
             <nav className="navbar">
-                <div className='navbnar-container'>
-                    <Link to='/' className='navbar-logo'>
-                        <img src='/images/grafiki/logo_white.png' alt="logo1" />
-                    </Link>
-                    <Link to='order' className='navbar-order'>
+                <div className='navbnar-container'>                   
+                    <img className='navbar-logo' src='/images/grafiki/logo_white.png' alt="logo1" />
+                    <button className='navbar-order'>
                         Zamów
-                    </Link>
+                    </button>
                 </div>
-                <img src='/images/background/bg_czaszka.jpg' alt='tło' className='navbar-background'/>
+                <img src='/images/background/bg_czaszka.png' alt='tło' className='navbar-background'/>
+
             </nav>
         </>   
     )
