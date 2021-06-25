@@ -13,13 +13,16 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-bottom: 20px;
         padding-top: 20px;
-
+        position: fixed;
+        z-index: 10;
+        background-color: #101417;
+        
         .navbar-logo {
             height: 40px;
             width: auto;  
+            margin-left: 4%;
         }
 
         .navbar-order{
@@ -28,6 +31,7 @@
             background-color: #FFA619;
             border-radius:28px;
             border:1px solid #FFA619;
+            margin-right: 4%;
             cursor:pointer;
             font-weight: bold;
             font-size:16px;
@@ -46,9 +50,11 @@
     opacity: 0;
     margin-bottom: 25%;
     animation-name: back;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    position: relative;
+    top: 20vh;
     @keyframes back{
         0%{
             opacity: 0;

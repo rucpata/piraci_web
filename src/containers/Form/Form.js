@@ -19,7 +19,7 @@ const Form = () => {
    
 
     return(
-        <div className='orderForm'>
+        <div className='orderForm' id='orderForm'>
             <h2>Zamów</h2>
             <form onSubmit={handleSubmit}>
                 <label> 

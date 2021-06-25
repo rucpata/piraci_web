@@ -18,10 +18,6 @@ const InfoList = ({title, info}) => {
           breakpoint: { max: 1024, min: 0 },
           items: 2
         },
-        // mobile: {
-        //   breakpoint: { max: 464, min: 0 },
-        //   items: 1
-        // }
       };
 
     const title1 = 'Co Cię dzieli od przygody?';
@@ -44,9 +40,4 @@ const InfoList = ({title, info}) => {
         )
     } 
     
-
-
-
-
-
 export default InfoList;

@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import './Heder.scss';
 // import logo from '../../images/grafiki/logo_white.png'
@@ -9,12 +9,16 @@ import './Heder.scss';
 const Header = () => {
     return(
         <>
-            <nav className="navbar">
+            <nav className="navbar" id='navbar'>
                 <div className='navbnar-container'>                   
-                    <img className='navbar-logo' src='/images/grafiki/logo_white.png' alt="logo1" />
-                    <button className='navbar-order'>
-                        Zamów
-                    </button>
+                    <Link  activeClass="active" to="navbar" spy={true} smooth={true}>
+                        <img className='navbar-logo' src='/images/grafiki/logo_white.png' alt="logo1" />
+                    </Link>
+                    <Link  activeClass="active" to="orderForm" spy={true} smooth={true}>
+                        <button href='/#orderForm'className='navbar-order'>
+                            Zamów
+                        </button>
+                    </Link>
                 </div>
                 <img src='/images/background/bg_czaszka.png' alt='tło' className='navbar-background'/>
 
