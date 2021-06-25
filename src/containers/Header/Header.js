@@ -20,6 +20,9 @@ const Header = () => {
                         </button>
                     </Link>
                 </div>
+                <div>
+                    
+                </div>
                 <img src='/images/background/bg_czaszka.png' alt='tło' className='navbar-background'/>
 
             </nav>
