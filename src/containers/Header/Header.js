@@ -23,7 +23,7 @@ const Header = () => {
                 <div>
                     
                 </div>
-                <img src='/images/background/bg_czaszka.png' alt='tło' className='navbar-background'/>
+                <img src='/images/background/bg_czaszka5.png' alt='tło' className='navbar-background'/>
 
             </nav>
         </>   
