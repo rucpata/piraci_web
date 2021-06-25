@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Form.css';
+import './Form.scss';
 // import medalion from '../../../public/images/background/bg_medalion.jpg'
 
 const Form = () => {
@@ -62,7 +62,6 @@ const Form = () => {
                     />
                 </label>
                 <button type='submit'>Wyślij</button>
-                
 
             </form>
             {/* <img src='/images/background/bg_medalion.jpg' alt='tło' className="formback"/> */}

@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 
-import './Heder.css';
+import './Heder.scss';
 // import logo from '../../images/grafiki/logo_white.png'
 // import tło from '../../img/background/bg_czaszka.png'
 

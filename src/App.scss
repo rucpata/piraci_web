@@ -14,20 +14,20 @@ body {
   color: #FFFAF3;
   overflow-x: hidden;
   text-align: center;
+  h2{
+    font-size: 2.2em;
+    z-index: 6;
+  
+  }
 }
 
 
 
 .App {
-  
   background-color: #101417;
+  
 }
 
-h2{
-  font-size: 2.2em;
-  z-index: 6;
-
-}
 
 @media (max-width: 768px) { 
   body{
