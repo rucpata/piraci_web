@@ -26,6 +26,7 @@
             width: auto;  
             margin-left: 8%;
             z-index: 5;
+            cursor:pointer;
         }
 
         .navbar-order{
@@ -54,8 +55,8 @@
     opacity: 0;
     margin-bottom: 25%;
     animation-name: back;
-    animation-duration: 5s;
-    animation-delay: 1s;
+    animation-duration: 7s;
+    animation-delay: 1.2s;
     animation-fill-mode: forwards;
     position: relative;
     top: 14vh;
